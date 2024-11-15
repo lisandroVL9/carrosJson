@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>x:<input id="x" type="number">
+</p>
+<p>y:<input id="y" type="number">
+</p>
+<button onclick="somar()">+</button>
+<button onclick="subetrair()">+</button>
+<button onclick="multiplicar()">+</button>
+<p>z:<input id="z" type="number">
+</p>
+
+<script>
+
+function subetrair(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z").value=x-y
+}
+function multiplicar(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z").value=x*y
+}
+</script>
+
+</body>
+</html>

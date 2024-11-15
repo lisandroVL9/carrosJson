@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sayMagicWord();">Diz as palavras mágicas!</button>
+    <p id="disse">O que dizes?</p>
+    <button onclick="limpar();">limpar</button>
+
+    <script>
+        function sayMagicWord() {
+          var paragrafo = document.getElementById("disse");  
+     paragrafo.innerHTML = "POR FAVOR!";
+        }
+        function limpar() {
+          var paragrafo = document.getElementById("disse");  
+     paragrafo.innerHTML = "o que dizes?";
+        }
+      </script>
+  
+</body>
+</html>

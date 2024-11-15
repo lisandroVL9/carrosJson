@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>x:<input id="x" type="number">
+</p>
+<p>y:<input id="y" type="number">
+</p>
+<button onclick="somar()">somar</button>
+<button onclick="subtrair()">subtrair</button>
+<button onclick="multiplicar()">multiplicar</button>
+<button onclick="dividir()">dividir</button>
+<button onclick="limpar()">[</button>
+
+<p>z:<input id="z" type="number">
+</p>
+
+<script>
+    function somar(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z").value=x+y
+}
+
+function subtrair(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z").value=x-y
+}
+function multiplicar(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z").value=x*y
+}
+function dividir(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z").value=x/y
+}
+function limpar(){
+    var x=document.getElementById("x").value*1
+    var y=document.getElementById("y").value*1
+document.getElementById("z")
+}
+</script>
+
+</body>
+</html>
